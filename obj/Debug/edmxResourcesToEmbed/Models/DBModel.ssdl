@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kgbvjhModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblHr">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="F01" Type="nvarchar" MaxLength="50" />
+    <Property Name="F02" Type="nvarchar" MaxLength="50" />
+    <Property Name="F03" Type="nvarchar" MaxLength="50" />
+    <Property Name="F04" Type="nvarchar" MaxLength="50" />
+    <Property Name="F06" Type="nvarchar" MaxLength="50" />
+    <Property Name="F07" Type="nvarchar" MaxLength="50" />
+    <Property Name="F08" Type="nvarchar" MaxLength="50" />
+    <Property Name="F09" Type="nvarchar" MaxLength="50" />
+    <Property Name="F10" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="createdby" Type="nvarchar" MaxLength="15" />
+    <Property Name="createddate" Type="date" />
+    <Property Name="updatedby" Type="nvarchar" MaxLength="1" />
+    <Property Name="updateddate" Type="date" />
+  </EntityType>
+  <EntityContainer Name="kgbvjhModelStoreContainer">
+    <EntitySet Name="TblHr" EntityType="Self.TblHr" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

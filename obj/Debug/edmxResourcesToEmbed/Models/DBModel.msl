@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kgbvjhModelStoreContainer" CdmEntityContainer="kgbvjhEntities">
+    <EntitySetMapping Name="TblHrs">
+      <EntityTypeMapping TypeName="kgbvjhModel.TblHr">
+        <MappingFragment StoreEntitySet="TblHr">
+          <ScalarProperty Name="updateddate" ColumnName="updateddate" />
+          <ScalarProperty Name="updatedby" ColumnName="updatedby" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="F10" ColumnName="F10" />
+          <ScalarProperty Name="F09" ColumnName="F09" />
+          <ScalarProperty Name="F08" ColumnName="F08" />
+          <ScalarProperty Name="F07" ColumnName="F07" />
+          <ScalarProperty Name="F06" ColumnName="F06" />
+          <ScalarProperty Name="F04" ColumnName="F04" />
+          <ScalarProperty Name="F03" ColumnName="F03" />
+          <ScalarProperty Name="F02" ColumnName="F02" />
+          <ScalarProperty Name="F01" ColumnName="F01" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

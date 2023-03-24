@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kgbvjhModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="kgbvjhEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TblHrs" EntityType="kgbvjhModel.TblHr" />
+  </EntityContainer>
+  <EntityType Name="TblHr">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="F01" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F02" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F03" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F04" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F06" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F07" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F08" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F09" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F10" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="createdby" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="createddate" Type="DateTime" Precision="0" />
+    <Property Name="updatedby" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="updateddate" Type="DateTime" Precision="0" />
+  </EntityType>
+</Schema>
