@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+//using kkgbvjh.Models;
 
 namespace kgbvjh.Controllers
 {
@@ -10,6 +11,7 @@ namespace kgbvjh.Controllers
     {
         public ActionResult Index()
         {
+            //kgbvjhEntities db = new kgbvjhEntities();
             return View();
         }
 
